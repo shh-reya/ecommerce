@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Order Successfull</title>
+
+    <link rel="stylesheet" href="../staic/style.css">
+    {% load static %}
+    <link rel="stylesheet" type="text/css"
+    href="{% static 'css/style.css' %}">
+    
+    
+</head>
+<body>
+    <section id="ty" class="section-p1">
+        <div class="order-sec">
+            <div class="icon">
+                <i class='bx bx-check-circle'></i>
+            </div>
+            <h1 class="tq">Yay!</h1>
+            <p>You have successfully signed up to our Newsletter</p>
+            <p>Now you will recieve all the updates about our products</p>
+            <div class="btn">
+                <button class="btn1" type="button" onclick="location.href='/index'">Continue Shopping</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

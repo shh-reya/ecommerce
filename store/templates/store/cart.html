@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fashion kart</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="../staic/style.css">
+        {% load static %}
+        <link rel="stylesheet" type="text/css"
+        href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+
+        <section id="header">
+            <a href="/index"><img src="../static/image/logo.png" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/login">Account</a></li>
+                    <li class="cart">
+                        <a href="/cart">
+                            <ion-icon name="bag-handle-outline"></ion-icon>cart<span></span></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#Let's_finish</h2>
+            <p>Complete Your Purchase Here</p>
+        </section>
+        
+      <section id="prada">
+        <div class="products-container">
+            <div class="product-header">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+
+            </div>
+        </div>
+       </section>
+      
+       
+       <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../static/image/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Akharaghat Road, Muzaffarpur</p>
+            <p><strong>Phone: </strong> +91 1234567892 /+91 1234567894</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <div class="follow">
+                    <h4>Follow us</h4>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram" ></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="/about">About us</a>
+            <a href="/about">Privacy Policy</a>
+            <a href="/about">Terms & Conditions</a>
+            <a href="/contact">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="/login">Sign in</a>
+            <a href="/cart">View Cart</a>
+            <a href="/contact">Help </a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../static/image/pay/app.jpg" alt="">
+                <img src="../static/image/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="../static/image/pay/pay.png" alt="">
+        </div>
+    </footer>
+       
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="../static/js/main.js"></script>
+        </body>
+</html>
